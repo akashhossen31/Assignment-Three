@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/Assignment-Three/',
+  base: '/Expense-Tracker-App/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
